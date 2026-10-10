@@ -1,0 +1,31 @@
+[server]
+enableStaticServing = true
+maxUploadSize = 5
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#2ee6b6"
+backgroundColor = "#07090d"
+secondaryBackgroundColor = "#0f141c"
+textColor = "#e6edf3"
+borderColor = "#1f2733"
+font = "Space Grotesk, sans-serif"
+headingFont = "Space Grotesk, sans-serif"
+codeFont = "JetBrains Mono, monospace"
+baseRadius = "0.6rem"
+
+[[theme.fontFaces]]
+family = "Space Grotesk"
+url = "app/static/space-grotesk.woff2"
+weight = "300 700"
+
+[[theme.fontFaces]]
+family = "JetBrains Mono"
+url = "app/static/jetbrains-mono.woff2"
+weight = "100 800"
